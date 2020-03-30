@@ -21,7 +21,7 @@
     "siteUrl": false,
     "cookiesAlert": false,
     "gdpr": false,
-    "uniqCompNum": 7,
+    "uniqCompNum": 8,
     "versionPublish": "4.12.3",
     "screenshot": "screenshot.png"
   },
@@ -41,7 +41,7 @@
           "_params": {
             "showTitle": false,
             "showText": true,
-            "showButtons": true,
+            "showButtons": false,
             "showArrow": false,
             "contentAlign": "center",
             "bgImageRadio": true,
