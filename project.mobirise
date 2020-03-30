@@ -1,0 +1,67 @@
+{
+  "settings": {
+    "name": "Automática 2019-clone",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "purity",
+      "title": "PurityM",
+      "styling": {},
+      "additionalSetColors": []
+    },
+    "path": "@PROJECT_PATH@",
+    "versionFirst": "4.9.7",
+    "siteFonts": [],
+    "uniqCompNum": 3,
+    "versionPublish": "4.9.7",
+    "favicon": "@PROJECT_PATH@/assets/images/ico-30x40.png",
+    "noImageResize": "",
+    "siteUrl": "undefined",
+    "google-analytics": "",
+    "screenshot": "screenshot.png"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "Home",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#000000",
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5,
+            "counters": true,
+            "facebook": false,
+            "twitter": false,
+            "google": false
+          },
+          "text": "<br>Automática. Medellín, CO. 2019",
+          "alias": "purity/components",
+          "_tags": [
+            "Tema"
+          ],
+          "_name": "social-buttons1",
+          "_anchor": "social-buttons1-1",
+          "_styles": {
+            ".mbr-section-title": {
+              "font-size": "16px",
+              "color": "#d3dae7"
+            }
+          }
+        }
+      ]
+    }
+  }
+}
