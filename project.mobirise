@@ -41,7 +41,7 @@
           "_params": {
             "showTitle": false,
             "showText": true,
-            "showButtons": false,
+            "showButtons": true,
             "showArrow": false,
             "contentAlign": "center",
             "bgImageRadio": true,
@@ -53,9 +53,9 @@
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "overlay": false,
+            "overlay": true,
             "overlayColor": "#222",
-            "overlayOpacity": 0.5
+            "overlayOpacity": "0.5"
           },
           "title": "AUTOMÁTICA",
           "text": "<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>",
