@@ -1,6 +1,6 @@
 {
   "settings": {
-    "name": "Automática",
+    "name": "Automática.",
     "currentPage": "index.html",
     "theme": {
       "name": "default",
@@ -10,16 +10,23 @@
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.12.3",
     "siteFonts": [],
-    "imageResize": true,
-    "uniqCompNum": 1,
+    "favicon": "@PROJECT_PATH@/assets/images/ico.png",
+    "imageResize": false,
+    "robotsSwitcher": false,
+    "sitemapSwitcher": false,
+    "sitemapSwitcherAuto": false,
+    "siteUrl": false,
+    "cookiesAlert": false,
+    "gdpr": false,
+    "uniqCompNum": 6,
     "versionPublish": "4.12.3"
   },
   "pages": {
     "index.html": {
       "settings": {
         "main": true,
-        "title": "Home",
-        "meta_descr": "",
+        "title": "Automática.",
+        "meta_descr": "Automatica. Medellín, COlombia 2020",
         "header_custom": "",
         "footer_custom": "",
         "html_before": ""
@@ -28,13 +35,13 @@
         {
           "_inherit": "header1",
           "_params": {
-            "showTitle": true,
+            "showTitle": false,
             "showText": true,
             "showButtons": true,
-            "showArrow": true,
+            "showArrow": false,
             "contentAlign": "center",
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/automatica-log01-2000x1125.png",
+            "bgImage": "@PROJECT_PATH@/assets/images/background-logo-4.png",
             "parallax": true,
             "bgColorRadio": false,
             "bgColor": "#4c6972",
@@ -46,15 +53,15 @@
             "overlayColor": "#222",
             "overlayOpacity": 0.5
           },
-          "title": "",
-          "text": "<br><br><br><br><br><br><br>DOWNTEMPO | LO-FI | ACUSTICA",
-          "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg animated fadeInUp delay btn-info\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">FACEBOOK</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg animated fadeInUp delay btn-danger\" href=\"https://www.youtube.com/channel/UCVNYo9sZwCht8vkKH8NArvg\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">YOUTUBE</a>",
+          "title": "AUTOMÁTICA",
+          "text": "<br><br><br><br><br><br><br><br>",
+          "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger animated fadeInUp delay\" href=\"https://www.youtube.com/channel/UCVNYo9sZwCht8vkKH8NArvg\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">YOUTUBE</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg animated fadeInUp delay btn-info\" href=\"http://www.facebook.com/automaticaoficial\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">FACEBOOK</a>",
           "_tags": [
             "Theme"
           ],
           "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
           "_name": "header4",
-          "_anchor": "header4-0"
+          "_anchor": "header4-5"
         }
       ]
     }
